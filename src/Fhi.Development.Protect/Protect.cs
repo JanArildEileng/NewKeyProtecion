@@ -59,6 +59,13 @@ namespace Fhi.Felles.KeyProtection
             File.WriteAllBytes(request.ProtectedIVPath, DataProtection.ProtectForUser(request.RijndaelManagedContainer.Vector));
             log.AppendLine("Protected vector at " + request.ProtectedIVPath);
 
+
+            File.WriteAllBytes(request.ProtectedKeyPath+".bin", request.RijndaelManagedContainer.Key);
+            File.WriteAllBytes(request.ProtectedIVPath+".bin", request.RijndaelManagedContainer.Vector);
+
+
+
+
             return new ProtectResponse(log.ToString());
         }
         

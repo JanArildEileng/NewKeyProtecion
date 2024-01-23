@@ -173,7 +173,7 @@
             this.txtIVFilePathSource.Size = new System.Drawing.Size(456, 20);
             this.txtIVFilePathSource.TabIndex = 7;
             this.txtIVFilePathSource.TabStop = false;
-            this.txtIVFilePathSource.Text = "C:\\development\\Fhi.Dar\\Main\\Fhi.Dar.DataAccess\\Resources\\IV.dat";
+            this.txtIVFilePathSource.Text = "C:\\temp\\IV.dat";
             // 
             // txtWriteIVPath
             // 
@@ -182,7 +182,7 @@
             this.txtWriteIVPath.Size = new System.Drawing.Size(456, 20);
             this.txtWriteIVPath.TabIndex = 7;
             this.txtWriteIVPath.TabStop = false;
-            this.txtWriteIVPath.Text = "C:\\development\\Fhi.Dar\\Main\\Fhi.Dar.Utils\\ProtectedKey\\RijndaelIV.dat";
+            this.txtWriteIVPath.Text = "C:\\temp\\RijndaelIV.dat";
             // 
             // txtKeyFilePathSource
             // 
@@ -191,7 +191,7 @@
             this.txtKeyFilePathSource.Size = new System.Drawing.Size(456, 20);
             this.txtKeyFilePathSource.TabIndex = 7;
             this.txtKeyFilePathSource.TabStop = false;
-            this.txtKeyFilePathSource.Text = "C:\\development\\Fhi.Dar\\Main\\Fhi.Dar.DataAccess\\Resources\\Key.dat";
+            this.txtKeyFilePathSource.Text = "C:\\temp\\Key.dat";
             // 
             // txtWriteKeypath
             // 
@@ -200,7 +200,7 @@
             this.txtWriteKeypath.Size = new System.Drawing.Size(456, 20);
             this.txtWriteKeypath.TabIndex = 7;
             this.txtWriteKeypath.TabStop = false;
-            this.txtWriteKeypath.Text = "C:\\development\\Fhi.Dar\\Main\\Fhi.Dar.Utils\\ProtectedKey\\RijndaelKey.dat";
+            this.txtWriteKeypath.Text = "C:\\temp\\RijndaelKey.dat";
             // 
             // txtKeyBase64Source
             // 
